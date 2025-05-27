@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f6f6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a3a656;
+  height: 70px;
+  align-items: center;
+}
+
+.menú {
+  display: flex;
+  padding-left: 70px;
+}
+
+#menú {
+  font-size: 16px;
+  font-family: "Inter";
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.menú p:hover {
+  color: #ffff00;
+  cursor: pointer;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+#miniatura {
+  font-size: 14px;
+  font-family: "Inter";
+  padding: 15px;
+}
+
+.cuenta {
+  display: flex;
+  align-items: center;
+}
+
+.idioma {
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.texto-imagen {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 500px;
+}
+.texto-imagen h1 {
+  font-family: "Romanesco";
+  font-size: 96px;
+  padding-bottom: 30px;
+  font-weight: 100;
+}
+
+.texto-imagen p {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.citas {
+  display: flex;
+  height: 100px;
+  background-color: #f2f6f6;
+  align-items: center;
+  justify-content: center;
+}
+
+.citas input {
+  border: transparent;
+  border-radius: 8px;
+  height: 50px;
+  padding: 20px;
+}
+
+.card {
+  font-family: "Inter";
+  font-size: 16px;
+  width: 350px;
+  margin: 100px 67px;
+}
+
+.descripción {
+  padding: 15px 0px;
+}
+
+.imagen {
+  width: 350px;
+}
+
+.imagen img {
+  width: 350px;
+}
+
+.reservar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0px 0px 0px 15px;
+}
+
+#título2 {
+  text-align: center;
+  background-color: #a3a656;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.reservar div {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.reservar a {
+  background: #a3a656;
+  color: white;
+  font-family: "Inter";
+  border-radius: 35px;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reservar a:hover {
+  background-color: #384001;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.beneficios {
+  background-color: #f2f6f6;
+  height: 770px;
+}
+
+#título1 {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+
+.planes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.plan {
+  width: 255px;
+  text-align: center;
+}
+
+.imagen-plan {
+  height: 233px;
+  background-color: white;
+  border-radius: 50%;
+  border: 10px, solid, #384001;
+  padding: 45px;
+}
+
+.plan a {
+  background: #a3a656;
+  color: white;
+  font-family: "Inter";
+  border-radius: 35px;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.plan a:hover {
+  background-color: #384001;
+}
+
+.plan ul {
+  font-family: "Inter";
+  text-align: left;
+  margin: 40px;
+}
+
+.plan li {
+  padding-top: 10px;
+}
+
+.menú-final {
+  background-color: #384001;
+  height: 97px;
+  padding-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menú-final ol {
+  list-style-type: none;
+}
+
+.menú-final ol li {
+  display: inline-block;
+  padding-right: 90px;
+  background-color: #384001;
+}
+
+.menú-final ol li:hover {
+  color: #ffff00;
+  cursor: pointer;
+}
+
+.pie-página {
+  display: flex;
+  justify-content: space-between;
+  color: #a3a656;
+  background-color: #384001;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  background-color: #384001;
+  padding-right: 30px;
+}
+
+.redes img {
+  padding: 15px;
+}
